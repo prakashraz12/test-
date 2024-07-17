@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
-import {Sidebar } from "lucide-react";
 import Navbar from "./(layouts)/navbar";
+import Sidebar from "./(layouts)/sidebar";
 
 const open_sans = Open_Sans({
   subsets: ["latin"],
